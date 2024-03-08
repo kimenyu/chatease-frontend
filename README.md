@@ -1,5 +1,8 @@
 # ChatEase
 
+![Screenshot 1](https://chatease-frontend.vercel.app/regsiter.png)
+![Screenshot 2](/images/screenshot2.png)
+
 Welcome to ChatEase! This is a real-time chat application built using Node.js, React.js, and WebSockets (Socket.io).
 
 Visit the live demo: [ChatEase](https://chatease-frontend.vercel.app/)
