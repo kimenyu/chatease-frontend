@@ -1,7 +1,15 @@
 # ChatEase
 
 ![Screenshot 1](https://chatease-frontend.vercel.app/regsiter.png)
-![Screenshot 2](/images/screenshot2.png)
+![Screenshot 2](https://chatease-frontend.vercel.app/login.png)
+![Screenshot 3](https://chatease-frontend.vercel.app/avatar.png)
+![Screenshot 4](https://chatease-frontend.vercel.app/wlcome.png)
+![Screenshot 5](https://chatease-frontend.vercel.app/dashboard.png)
+![Screenshot 6](https://chatease-frontend.vercel.app/conversation.png)
+
+
+
+
 
 Welcome to ChatEase! This is a real-time chat application built using Node.js, React.js, and WebSockets (Socket.io).
 
@@ -30,3 +38,15 @@ To run ChatEase locally, follow these steps:
 1. Clone the frontend repository:
    ```bash
    git clone https://github.com/kimenyu/chatease-frontend.git
+
+2. Install dependencies
+   ```bash
+   cd chatease-frontend
+   npm install
+
+3. Clone the backend repo
+   ```bash
+   git clone https://github.com/kimenyu/chatease-backend.git
+
+4. 
+
