@@ -48,5 +48,18 @@ To run ChatEase locally, follow these steps:
    ```bash
    git clone https://github.com/kimenyu/chatease-backend.git
 
-4. 
+4. Install backend dependencies
+   ```bash
+   cd chatease-backend
+   npm install
+
+5. Start the backend server
+   ```bash
+   npm start
+6. Start frontend application
+   ```bash
+   cd ../chatease-frontend
+   npm start
+
+
 
