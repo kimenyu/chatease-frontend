@@ -25,12 +25,12 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: white; /* Text color */
   flex-direction: column;
   img {
-    height: 20rem;
+    height: 20rem; /* Adjusted image height */
   }
   span {
-    color: #4e0eff;
+    color: #4e0eff; /* Modified color for span */
   }
 `;

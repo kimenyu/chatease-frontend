@@ -101,7 +101,7 @@ const FormContainer = styled.div`
   justify-content: center;
   gap: 1rem;
   align-items: center;
-  background-color: #195827;
+  background-color: #195827; /* Dark green background */
   .brand {
     display: flex;
     align-items: center;
@@ -111,7 +111,7 @@ const FormContainer = styled.div`
       height: 5rem;
     }
     h1 {
-      color: white;
+      color: white; /* White color for the title */
       text-transform: none;
     }
   }
@@ -120,26 +120,26 @@ const FormContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    background-color: #00000076;
+    background-color: #00000076; /* Dark semi-transparent background for the form */
     border-radius: 2rem;
     padding: 3rem 5rem;
   }
   input {
-    background-color: white;
+    background-color: white; /* White background for input fields */
     padding: 1rem;
-    border: 0.1rem solid #4e0eff;
+    border: 0.1rem solid #4e0eff; /* Purple border for input fields */
     border-radius: 0.4rem;
-    color: black;
+    color: black; /* Black text color for input fields */
     width: 100%;
     font-size: 1rem;
     &:focus {
-      border: 0.1rem solid #997af0;
+      border: 0.1rem solid #997af0; /* Light purple border when input field is focused */
       outline: none;
     }
   }
   button {
-    background-color: #33b249;
-    color: white;
+    background-color: #33b249; /* Green button background color */
+    color: white; /* White text color for buttons */
     padding: 1rem 2rem;
     border: none;
     font-weight: bold;
@@ -148,14 +148,14 @@ const FormContainer = styled.div`
     font-size: 1rem;
     text-transform: uppercase;
     &:hover {
-      background-color: red;
+      background-color: red; /* Red background color on button hover */
     }
   }
   span {
-    color: white;
+    color: white; /* White text color for span elements */
     text-transform: uppercase;
     a {
-      color: #4e0eff;
+      color: #4e0eff; /* Purple color for links */
       text-decoration: none;
       font-weight: bold;
     }

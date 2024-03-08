@@ -29,11 +29,12 @@ const Button = styled.button`
   align-items: center;
   padding: 0.5rem;
   border-radius: 0.5rem;
-  background-color: #000;
+  background-color: #195827; /* Modified background color */
   border: none;
   cursor: pointer;
   svg {
     font-size: 1.3rem;
-    color: #ebe7ff;
+    color: #ebe7ff; /* Keep the same color */
   }
 `;
+

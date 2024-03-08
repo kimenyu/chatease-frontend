@@ -68,7 +68,7 @@ const Container = styled.div`
   display: grid;
   grid-template-rows: 10% 75% 15%;
   overflow: hidden;
-  background-color: black;
+  background-color: #195827; /* Modified background color */
   .brand {
     display: flex;
     align-items: center;
@@ -97,7 +97,7 @@ const Container = styled.div`
       }
     }
     .contact {
-      background-color: #ffffff34;
+      background-color: #00000076; /* Modified background color */
       min-height: 5rem;
       cursor: pointer;
       width: 90%;

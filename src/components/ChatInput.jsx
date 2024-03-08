@@ -52,7 +52,7 @@ const Container = styled.div`
   display: grid;
   align-items: center;
   grid-template-columns: 5% 95%;
-  background-color: #000;
+  background-color: #195827; /* Modified background color */
   padding: 0 2rem;
   @media screen and (min-width: 720px) and (max-width: 1080px) {
     padding: 0 1rem;
@@ -73,11 +73,11 @@ const Container = styled.div`
       .emoji-picker-react {
         position: absolute;
         top: -350px;
-        background-color: #000;
+        background-color: #195827; /* Modified background color */
         box-shadow: 0 5px 10px #9a86f3;
         border-color: #9a86f3;
         .emoji-scroll-wrapper::-webkit-scrollbar {
-          background-color: #000;
+          background-color: #195827; /* Modified background color */
           width: 5px;
           &-thumb {
             background-color: #9a86f3;
@@ -104,7 +104,7 @@ const Container = styled.div`
     display: flex;
     align-items: center;
     gap: 2rem;
-    background-color: #ffffff34;
+    background-color: #00000076; /* Modified background color */
     input {
       width: 90%;
       height: 60%;
@@ -142,3 +142,4 @@ const Container = styled.div`
     }
   }
 `;
+

@@ -69,15 +69,15 @@ const Container = styled.div`
   justify-content: center;
   gap: 1rem;
   align-items: center;
-  background-color: #195827;
+  background-color: #195827; /* Dark green background */
   .container {
     height: 85vh;
     width: 85vw;
-    background-color: #00000076;
+    background-color: #00000076; /* Dark semi-transparent background */
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 25% 75%; /* Grid layout with 25% and 75% columns */
     @media screen and (min-width: 720px) and (max-width: 1080px) {
-      grid-template-columns: 35% 65%;
+      grid-template-columns: 35% 65%; /* Adjusted grid layout for medium screens */
     }
   }
 `;
